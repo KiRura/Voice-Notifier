@@ -1,25 +1,23 @@
 {
-  "$schema": "https://json.schemastore.org/package.json",
-  "name": "voice-notifier",
-  "version": "0.1.0",
-  "private": true,
-  "type": "module",
-  "scripts": {
-    "deploy": "bun run src/util/deploy.ts",
-    "start": "bun run src/index.ts",
-    "check": "biome check --write --unsafe . && tsc"
-  },
-  "dependencies": {
-    "@discordjs/core": "^2.0.1",
-    "discord.js": "^14.18.0"
-  },
-  "devDependencies": {
-    "@biomejs/biome": "^1.9.4",
-    "@sapphire/ts-config": "^5.0.1",
-    "@types/bun": "latest",
-    "typescript": "~5.7.3",
-    "zod": "^3.24.2"
-  },
-  "trustedDependencies": ["@biomejs/biome"],
-  "module": "index.ts"
+	"$schema": "https://json.schemastore.org/package.json",
+	"name": "voice-notifier",
+	"version": "0.1.0",
+	"type": "module",
+	"scripts": {
+		"deploy": "bun run src/util/deploy.ts",
+		"start": "bun run src/index.ts",
+		"check": "biome check --write --unsafe . && tsc"
+	},
+	"dependencies": {
+		"@discordjs/core": "^2.0.1",
+		"discord.js": "^14.18.0"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^1.9.4",
+		"@sapphire/ts-config": "^5.0.1",
+		"@types/bun": "latest",
+		"typescript": "~5.7.3",
+		"zod": "^3.24.2"
+	},
+	"trustedDependencies": ["@biomejs/biome"]
 }

@@ -1,10 +1,10 @@
 import process from "node:process";
 import { URL } from "node:url";
 import { Client, GatewayIntentBits } from "discord.js";
+import { LastFirstConnectionTime } from "./util/lastFirstConnectionTime.ts";
 import { loadCommands, loadEvents } from "./util/loaders.ts";
 import { registerEvents } from "./util/registerEvents.ts";
 import { VoiceMemberSize } from "./util/voiceMemberSize.ts";
-import { LastFirstConnectionTime } from "./util/lastFirstConnectionTime.ts";
 
 // Initialize the client
 const client = new Client({

@@ -175,3 +175,4 @@ dist
 .DS_Store
 
 src/data/*
+./pm2.config.cjs

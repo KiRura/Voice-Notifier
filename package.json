@@ -10,7 +10,7 @@
 	},
 	"dependencies": {
 		"@discordjs/core": "^2.0.1",
-		"discord.js": "^14.19.2"
+		"discord.js": "^14.19.3"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "^1.9.4",
